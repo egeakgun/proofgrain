@@ -10,7 +10,8 @@ This repository contains the public website, company vision, and aggregate resul
 
 - `benchmarks.json`: aggregate model statistics used by the interactive charts.
 - `benchmark-results.csv`: downloadable aggregate results.
-- Scores use GPT-6 Astra reference-and-rubric grading. The website documents the protocol, denominators, and metric definitions.
+- All 144 assigned attempts receive a response-based score. Partial answers and unfinished reasoning retain their recorded rubric points; empty responses score 0/7. Complete rubric points remain usable when only verdict/issue labels conflict. Each model’s mean, score distribution, full-credit rate, and bootstrap interval use all 18 assigned tasks.
+- Scores use GPT-6 Astra reference-and-rubric grading and the `all_assigned_recorded_response_v2` scoring policy. The original generation and grading records are unchanged.
 
 ## Development
 

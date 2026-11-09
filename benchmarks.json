@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "published_date": "2026-11-09",
   "datasets": [
     {
@@ -15,7 +15,7 @@
       "max_output_tokens": 32768,
       "judge": "GPT-6 Astra",
       "reasoning_effort": "high",
-      "total_scored": 93,
+      "total_scored": 144,
       "total_full_credit": 24,
       "usage_calls_known": 119,
       "calls": 264,
@@ -25,26 +25,23 @@
           "name": "Kimi K3",
           "creator": "Moonshot AI",
           "color": "#b5a1ed",
-          "mean_score": 2.5833333333333335,
-          "scored": 12,
+          "mean_score": 2.5555555555555554,
+          "scored": 18,
           "assigned": 18,
           "full_credit": 2,
-          "submitted": 12,
-          "reasoning_only": 6,
-          "operational_failures": 0,
           "mean_seconds": 187.74505555555555,
           "timing_known": 18,
           "ci95": {
-            "low": 1.4166666666666667,
-            "high": 3.8333333333333335
+            "low": 1.7222222222222223,
+            "high": 3.5555555555555554
           },
           "score_distribution": [
-            2,
-            2,
             3,
-            3,
+            2,
+            5,
+            5,
             0,
-            0,
+            1,
             0,
             2
           ],
@@ -56,25 +53,22 @@
           "name": "GLM 5.3",
           "creator": "Z.ai",
           "color": "#e4cb82",
-          "mean_score": 2.8,
-          "scored": 15,
+          "mean_score": 2.7222222222222223,
+          "scored": 18,
           "assigned": 18,
           "full_credit": 2,
-          "submitted": 15,
-          "reasoning_only": 2,
-          "operational_failures": 1,
           "mean_seconds": 193.53861111111112,
           "timing_known": 18,
           "ci95": {
-            "low": 1.8,
-            "high": 3.933333333333333
+            "low": 1.8333333333333333,
+            "high": 3.7777777777777777
           },
           "score_distribution": [
-            0,
+            1,
             5,
             5,
-            1,
-            1,
+            2,
+            2,
             0,
             1,
             2
@@ -87,23 +81,23 @@
           "name": "DeepSeek V4 Pro",
           "creator": "DeepSeek",
           "color": "#8bddd2",
-          "mean_score": null,
-          "scored": 0,
+          "mean_score": 2.111111111111111,
+          "scored": 18,
           "assigned": 18,
           "full_credit": 0,
-          "submitted": 0,
-          "reasoning_only": 18,
-          "operational_failures": 0,
           "mean_seconds": 207.64933333333335,
           "timing_known": 18,
-          "ci95": null,
+          "ci95": {
+            "low": 1.6652777777777779,
+            "high": 2.611111111111111
+          },
           "score_distribution": [
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
+            5,
+            9,
+            2,
+            1,
+            1,
             0,
             0
           ],
@@ -119,9 +113,6 @@
           "scored": 18,
           "assigned": 18,
           "full_credit": 2,
-          "submitted": 18,
-          "reasoning_only": 0,
-          "operational_failures": 0,
           "mean_seconds": 180.88227777777777,
           "timing_known": 18,
           "ci95": {
@@ -150,9 +141,6 @@
           "scored": 18,
           "assigned": 18,
           "full_credit": 10,
-          "submitted": 18,
-          "reasoning_only": 0,
-          "operational_failures": 0,
           "mean_seconds": 144.5126111111111,
           "timing_known": 18,
           "ci95": {
@@ -177,25 +165,22 @@
           "name": "Claude Opus 5.5",
           "creator": "Anthropic",
           "color": "#e7ab8f",
-          "mean_score": 7.0,
-          "scored": 6,
+          "mean_score": 3.7222222222222223,
+          "scored": 18,
           "assigned": 18,
           "full_credit": 6,
-          "submitted": 6,
-          "reasoning_only": 12,
-          "operational_failures": 0,
           "mean_seconds": 153.93666666666667,
           "timing_known": 18,
           "ci95": {
-            "low": 7.0,
-            "high": 7.0
+            "low": 2.5555555555555554,
+            "high": 4.944444444444445
           },
           "score_distribution": [
-            0,
-            0,
-            0,
-            0,
-            0,
+            1,
+            4,
+            2,
+            3,
+            2,
             0,
             0,
             6
@@ -208,21 +193,18 @@
           "name": "Gemini 4 Argon",
           "creator": "Google",
           "color": "#8fb8ef",
-          "mean_score": 2.588235294117647,
-          "scored": 17,
+          "mean_score": 2.4444444444444446,
+          "scored": 18,
           "assigned": 18,
           "full_credit": 2,
-          "submitted": 17,
-          "reasoning_only": 0,
-          "operational_failures": 1,
           "mean_seconds": 199.97244444444445,
           "timing_known": 18,
           "ci95": {
-            "low": 1.763235294117647,
-            "high": 3.588235294117647
+            "low": 1.5555555555555556,
+            "high": 3.388888888888889
           },
           "score_distribution": [
-            1,
+            2,
             6,
             1,
             6,
@@ -239,24 +221,21 @@
           "name": "Nemotron 3 Ultra",
           "creator": "NVIDIA",
           "color": "#c4c9d2",
-          "mean_score": 1.5714285714285714,
-          "scored": 7,
+          "mean_score": 1.5,
+          "scored": 18,
           "assigned": 18,
           "full_credit": 0,
-          "submitted": 7,
-          "reasoning_only": 11,
-          "operational_failures": 0,
           "mean_seconds": 163.26944444444445,
           "timing_known": 18,
           "ci95": {
-            "low": 0.8571428571428571,
-            "high": 2.142857142857143
+            "low": 1.1666666666666667,
+            "high": 1.8888888888888888
           },
           "score_distribution": [
             1,
+            9,
+            6,
             2,
-            3,
-            1,
             0,
             0,
             0,
@@ -265,7 +244,8 @@
           "usage_calls_known": 36,
           "calls": 36
         }
-      ]
+      ],
+      "scoring_policy": "all_assigned_recorded_response_v2"
     }
   ]
 }
